@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Tab, UserProfile, ChatMessage, MathProgress } from './types';
 import { MATH_TOPICS } from './constants';
-import { getMathAdvice, generateQuiz, speakText, searchLatestExams } from '../services/geminiService';
+import { getMathAdvice, generateQuiz, speakText, searchLatestExams } from './services/geminiService';
 const CAT_TIPS = [
   "Đừng quên (a+b)² = a² + 2ab + b² nha, đừng nhầm với a² + b² đó! 🐾",
   "Muốn phân tích đa thức? Hãy tìm nhân tử chung trước! 😺",
