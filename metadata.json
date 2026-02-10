@@ -1,0 +1,8 @@
+{
+  "name": "Mèo Toán 8 AI",
+  "description": "An intelligent Grade 8 Math assistant with an AI cat tutor, featuring formula guides, AI problem solving via image/voice, and interactive practice.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
